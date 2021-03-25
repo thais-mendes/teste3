@@ -1,0 +1,18 @@
+Bibliotecas usadas para fazer Web Scraping:
+
+* PANDA:Serve para armazenar , limpar , e salvar dados em forma de tabelas.
+* REQUEST:Serve para execução de requisiçoes de HTTP.
+* BEAULTIFULSOUP:Responsavel pela extração dos dados nos arquivos em HTML.
+* URLLIB2:Usado para buscar URLs, define funçoes e classes para ajudar nas açoes de URL.
+* SELENIUM:É uma biblioteca e ferramenta do PYTHON usada para automizar navegadores web para realizar uma tarefa,
+que no caso seria o Web Scraping.
+
+* PASSO A PASSO:
+
+* 1° Usar uma Bibloteca que busque uma URL.
+* 2° Usar a Biblioteca BEAULTIFULSOUP para extrair os dados da URL.
+* 3° Especificar a URL:http://www.buscacep.correios.com.br/sistemas/buscacep/buscaFaixaCep.cfm.
+* 4° Usar um DATA FRAME (PANDA) para analisar os dados.
+* 5° Transformar em um dicionario de dados para fornecer as informaçoes (UF,LOCALIDADE,FAIXA DE CEP E ID).
+E depois converter o arquivo e salvar em JSON.
+
